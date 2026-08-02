@@ -1,0 +1,41 @@
+.app {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f5f7fa;
+}
+
+.home {
+  text-align: center;
+  padding: 2rem;
+  background: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  max-width: 480px;
+  width: 100%;
+}
+
+.home h1 {
+  margin: 0 0 1.5rem;
+  font-size: 1.5rem;
+  color: #1a1a2e;
+}
+
+.health-status {
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.health-status.loading {
+  color: #64748b;
+}
+
+.health-status.connected {
+  color: #15803d;
+}
+
+.health-status.disconnected {
+  color: #b91c1c;
+}
